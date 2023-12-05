@@ -1,0 +1,137 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
+html {
+  font-size: 62.5%;
+}
+
+body {
+  font-family: "Rubik", sans-serif;
+  overflow-x: hidden;
+}
+
+body {
+  background-color: #e6e6ff;
+}
+/**********************************
+HEADER
+**********************************/
+.header-bar {
+  background-color: #eecfb8;
+  width: 153.6rem;
+}
+
+.sub-head {
+  display: flex;
+  align-items: center;
+  padding: 10px;
+  gap: 60%;
+}
+
+/* .sub-head-1 {
+} */
+
+.main-logo {
+  font-size: 3.2rem;
+  font-weight: 500;
+  color: #00004c;
+  margin-left: 1rem;
+  border: 4px solid #00004c;
+  padding: 6px;
+  letter-spacing: 0;
+  border-radius: 0.5rem;
+}
+
+.nav-list {
+  display: flex;
+  gap: 4.8rem;
+  align-items: center;
+  list-style: none;
+}
+
+.nav-links {
+  text-decoration: none;
+  font-size: 2.3rem;
+  color: #000066;
+  /* border: 2px solid #000066; */
+  border-radius: 0.5rem;
+  padding: 0.2rem;
+  font-weight: 400;
+}
+
+.nav-links:hover {
+  font-size: 2.4rem;
+  border: black;
+  background-color: #00004c;
+  color: #e6ffe6;
+  cursor: pointer;
+  transition: all 0.1s;
+}
+
+/**********************************
+section
+**********************************/
+.section-1 {
+  height: 65rem;
+  width: 145rem;
+  background-color: #cfdcfb;
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 3.6rem;
+  margin: 5rem 4.3rem 0rem 4.3rem;
+  border-radius: 0.5rem;
+}
+
+.circle {
+  height: 25rem;
+  width: 25rem;
+  background-color: #1a1a5e;
+  border-radius: 50%;
+  margin: 20rem 20rem 20rem 27rem;
+  /* box-shadow: 0rem 0.8rem 0.8rem #777; */
+  position: relative;
+}
+
+.resume-para {
+  font-size: 4.2rem;
+  color: white;
+}
+
+.try-button {
+  background-color: #e6ffe6;
+  border: 2px solid #00004c;
+  color: #00004c;
+  padding: 5px;
+  font-size: 3.2rem;
+  text-decoration: none;
+  border-radius: 7px;
+  font-weight: 500;
+  box-shadow: 0rem 0.24rem 0.48rem #777;
+  position: absolute;
+  margin: 7rem 5rem 2rem 5rem;
+}
+
+.try-button:hover {
+  background-color: #00004c;
+  border: 2px solid #00004c;
+  color: #e6ffe6;
+  padding: 5px;
+  font-size: 3.2rem;
+  text-decoration: none;
+  border-radius: 7px;
+  font-weight: 500;
+  box-shadow: 0rem 0.24rem 0.48rem #777;
+}
+
+.para-div {
+  margin: 4rem 0.5rem 1rem 3.5rem;
+  line-height: 1.3;
+}
+.template-img {
+  height: 60rem;
+  width: 45rem;
+  margin: 2.5rem 2.5rem 2.5rem 18rem;
+  border-radius: 0.2rem;
+}
